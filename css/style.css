@@ -1,210 +1,151 @@
-html{
-	max-width: 100%;
-	overflow-x: hidden;
-}
-
+html {
+  max-width: 100%;
+  overflow-x: hidden; }
 
 body {
-	height: 100%;
-	margin: 0;
-	right: 0;
-	background-color: #ddd;
-}
+  height: 100%;
+  margin: 0;
+  right: 0;
+  background-color: #ddd; }
 
 .container {
-	width: 100%;
-	min-height: 100%;
-	position: relative;
-}
+  width: 100%;
+  min-height: 100%;
+  position: relative; }
 
 header {
+  top: 0;
+  padding: 2em;
+  position: fixed;
+  text-align: center;
+  background-color: #fafafa;
+  width: 100%; }
+  header h1 {
+    font-family: 'Krub', sans-serif;
+    font-size: 20px;
+    color: black;
+    letter-spacing: .2em;
+    margin: 0;
+    text-transform: uppercase;
+    float: left; }
+  header h2 {
+    font-family: 'Krub', sans-serif;
+    font-size: 14px;
+    color: black;
+    letter-spacing: .2em;
+    margin: 0;
+    text-transform: uppercase;
+    float: right;
+    margin-right: 5%;
+    word-spacing: .2em; }
+    header h2 a {
+      text-decoration: none;
+      color: black; }
 
-	top: 0;
-	padding: 2em;
-	position: fixed;
-	text-align: center;
-	background-color: #fafafa;
-	width: 100%;
+#Intro {
+  padding: 5em;
+  padding-bottom: 8em; }
 
-}
+article {
+  width: 100%;
+  height: 88vh;
+  background-color: #C26868;
+  padding: 20px;
+  margin-top: 90px; }
+  article p {
+    padding: 20px;
+    margin-right: 20px;
+    font-size: 40px;
+    text-align: center;
+    color: white; }
 
-header h1 {
+#Welcome section {
+  background-color: #4C5364;
+  width: 100%;
+  height: 12vh;
+  padding: 12px; }
+  #Welcome section p {
+    margin: 18px;
+    font-family: 'Krub', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    letter-spacing: .1em; }
 
-	font-family: 'Krub', sans-serif;
-	font-size: 20px;
-	color: black;
-	letter-spacing: .2em;
-	margin: 0;
-	text-transform: uppercase;
-	float: left;
-}
+#AboutMe section {
+  background-color: #F3EFE0;
+  /*4C5364*/
+  width: 100%;
+  padding: 20px; }
+  #AboutMe section h2 {
+    text-align: center;
+    font-family: 'Krub', sans-serif;
+    font-size: 24px;
+    color: #C26868;
+    letter-spacing: .1em; }
+  #AboutMe section img {
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px; }
+  #AboutMe section h4 {
+    text-align: center;
+    font-family: 'Krub', sans-serif;
+    font-size: 16px;
+    color: #C26868; }
+  #AboutMe section p {
+    font-family: 'Krub', sans-serif;
+    display: block;
+    font-size: 16px;
+    margin-left: 22%;
+    margin-right: 22%;
+    text-align: center; }
 
-header h2{
-
-	font-family: 'Krub', sans-serif;
-	font-size: 14px;
-	color: black;
-	letter-spacing: .2em;
-	margin: 0;
-	text-transform: uppercase;
-	float:right;
-	margin-right: 5%;
-	word-spacing: .2em;
-}
-
-header h2 a{
-	text-decoration: none;
-	color: black;
-}
-
-
-article{
-	text-align: left;
-	width: 100%;
-	background-color: #C26868; 
-	/*#5fb0b0*/
-	padding: 20px;
-	margin-top: 90px;
-
-}
-
-#Intro{
-	padding: 5em;
-	padding-bottom: 8em;
-}
-
-article p{
-	
-	padding: 20px;
-	margin-right: 20px;
-	font-size: 40px;
-	text-align: center;
-	color: white;
-}
-
-#Welcome section{
-	background-color: #4C5364;
-	width: 100%;
-	padding: 12px;
-}
-
-#Welcome section p{
-	margin: 18px;
-	font-family: 'Krub', sans-serif;
-	font-size: 20px;
-	text-align: center;
-	color: white;
-	letter-spacing: .1em;
-}
-
-#AboutMe section{
-
-	background-color: #F3EFE0;
-	/*4C5364*/
-	width: 100%;
-	padding: 20px;
-}
-
-#AboutMe section h2{
-
-	text-align: center;
-	font-family: 'Krub', sans-serif;
-	font-size: 24px;
-	color: orange;
-	letter-spacing: .1em;
-}
-
-#AboutMe section img{
-
-	width: 25%;
-	height: 25%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-
-
-}
-
-#AboutMe section h4{
-
-	text-align: center;
-	font-family: 'Krub', sans-serif;
-	font-size: 16px;
-	color: orange;
-}
-
-#AboutMe section p{
-	font-family: 'Krub', sans-serif;
-	display: block;
-	font-size: 16px;
-	margin-left: 22%;
-	margin-right: 22%;
-	text-align: center;
-}
-
-
-#Resume section{
-	background-color: #F3EFE0;
-	/*C26868*/
-	width: 100%;
-	padding: 20px;
-	margin-bottom: 5%;
-	margin: 0;
-
-}
-
-#Resume section p{
-
-	margin: 18px;
-	font-family: 'Krub', sans-serif;
-	font-size: 20px;
-	text-align: center;
-	margin-right: 18%;
-	margin-left: 18%;
-	letter-spacing: .1em;
-
-}
+#Resume section {
+  background-color: #F3EFE0;
+  /*C26868*/
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 5%;
+  margin: 0; }
+  #Resume section p {
+    margin: 18px;
+    font-family: 'Krub', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 18%;
+    margin-left: 18%;
+    letter-spacing: .1em; }
 
 /*section p{
 	padding: 1.2em;
 	margin: 0px;
 	margin-right: 20px;
-
 }*/
-
-
-footer{
-	left: 0px;
-	bottom: 0px;
-	height: 20px;
-	width: 100%;
-	background-color: white;
-	padding: 20px;
-	font-size: 15px;
-	font-family: 'Krub', sans-serif;
-}
-
-footer #left{
-	float: left;
-}
-
-footer #right{
-	float:right;
-	font-family: 'Krub', sans-serif;
-	font-size: 12px;
-	padding-right: 30px;
-}
-
-
-#intro {
-	background-color: #4C5364;
-	text-align: center;
-}
+footer {
+  left: 0px;
+  bottom: 0px;
+  height: 20px;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  font-size: 15px;
+  font-family: 'Krub', sans-serif; }
+  footer #left {
+    float: left; }
+  footer #right {
+    float: right;
+    font-family: 'Krub' , sans-serif;
+    font-size: 12px;
+    padding-right: 30px; }
 
 /*#Resume {
 	background-color: #C26868;
 	margin-bottom: 250px;
 	margin: 0px;
 }
-
 */
+
+/*# sourceMappingURL=style.css.map */
