@@ -176,7 +176,7 @@ footer {
     font-size: 12px;
     padding-right: 30px; }
 
-@media (max-width: 560px) {
+@media (max-width: 500px) {
   .showcase::after {
     height: 50vh; }
 

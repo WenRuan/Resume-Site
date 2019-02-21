@@ -1,9 +1,7 @@
-
 html{
 	max-width: 100%;
 	overflow-x: hidden;
 }
-
 
 body {
 	width: 100%;
@@ -12,11 +10,6 @@ body {
 	background-color: rgba(250,250,250,0.9);
 }
 
-// .container {
-// 	width: 100%;
-// 	min-height: 100%;
-// 	position: relative;
-// }
 
 header {
 
@@ -274,7 +267,9 @@ footer{
 }
 
 
-@media (max-width: 560px) {
+@media (max-width: 500px) {
+
+
   .showcase::after {
     height: 50vh;
   }
