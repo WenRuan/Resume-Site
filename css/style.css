@@ -4,15 +4,9 @@ html {
 
 body {
   width: 100%;
-  height: 100%;
   margin: 0;
   right: 0;
-  background-color: #ddd; }
-
-.container {
-  width: 100%;
-  min-height: 100%;
-  position: relative; }
+  background-color: rgba(0, 0, 0, 0.9); }
 
 header {
   top: 0;
@@ -43,26 +37,33 @@ header {
       text-decoration: none;
       color: black; }
 
+.showcase::after {
+  content: '';
+  height: 80vh;
+  width: 100%;
+  background-image: url(resumebackground.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  display: block;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  transition: all 1000ms;
+  margin-top: 95px; }
+
+.showcase:hover::after {
+  filter: blur(0px);
+  -webkit-filter: blur(0px); }
+
+.showcase:hover .intro {
+  filter: blur(2px);
+  -webkit-filter: blur(2px); }
+
 #Intro {
+  position: absolute;
+  z-index: 1;
   padding: 5em;
   padding-bottom: 8em; }
-
-article {
-  width: 100%;
-  height: 80vh;
-  background-color: #C26868;
-  padding: 20px;
-  margin-top: 40px; }
-  article p {
-    padding: 40px;
-    margin-right: 20px;
-    font-size: 40px;
-    text-align: center;
-    color: black;
-    border-style: solid;
-    border-color: black;
-    background-color: rgba(32, 28, 41, 0.75);
-    padding-bottom: 30vh; }
 
 #Welcome section {
   background-color: #4C5364;
