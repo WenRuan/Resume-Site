@@ -14,7 +14,7 @@ body {
 header {
 
 	top: 0;
-	padding: 2em;
+	padding-top: 2em;
 	position: fixed;
 	text-align: center;
 	background-color: #fafafa;
@@ -22,6 +22,7 @@ header {
 	z-index: 2;
 
 	h1{
+		padding-left: 2em;
 		font-family: 'Krub', sans-serif;
 		font-size: 24px;
 		color: gray;
@@ -123,7 +124,7 @@ header {
 	background-color: #fafafa;
 	/*4C5364*/
 	width: 100%;
-	padding: 20px;
+	padding-top: 15px;
 
 		h2
 		{
@@ -196,7 +197,7 @@ header {
 	background-color: #C26868;
 	/*C26868*/
 	width: 100%;
-	padding: 20px;
+	padding-top: 20px;
 	margin-bottom: 5%;
 	margin: 0;
 	padding-bottom: 350px;
@@ -234,13 +235,15 @@ footer{
 	height: 20px;
 	width: 100%;
 	background-color: white;
-	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	font-size: 15px;
 	font-family: 'Krub', sans-serif;
 
 
 	#left{
 		float:left;
+		padding-left: 10px;
 	}
 
 	#right{

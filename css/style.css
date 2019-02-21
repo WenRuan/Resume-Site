@@ -10,13 +10,14 @@ body {
 
 header {
   top: 0;
-  padding: 2em;
+  padding-top: 2em;
   position: fixed;
   text-align: center;
   background-color: #fafafa;
   width: 100%;
   z-index: 2; }
   header h1 {
+    padding-left: 2em;
     font-family: 'Krub', sans-serif;
     font-size: 24px;
     color: gray;
@@ -95,7 +96,7 @@ header {
     background-color: #fafafa;
     /*4C5364*/
     width: 100%;
-    padding: 20px; }
+    padding-top: 15px; }
     #AboutMe section h2 {
       text-align: center;
       font-family: 'Krub', sans-serif;
@@ -145,7 +146,7 @@ header {
   background-color: #C26868;
   /*C26868*/
   width: 100%;
-  padding: 20px;
+  padding-top: 20px;
   margin-bottom: 5%;
   margin: 0;
   padding-bottom: 350px; }
@@ -173,11 +174,13 @@ footer {
   height: 20px;
   width: 100%;
   background-color: white;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 15px;
   font-family: 'Krub', sans-serif; }
   footer #left {
-    float: left; }
+    float: left;
+    padding-left: 10px; }
   footer #right {
     float: right;
     font-family: 'Krub' , sans-serif;
