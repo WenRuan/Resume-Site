@@ -63,6 +63,7 @@ header {
   position: absolute;
   z-index: 1;
   margin-top: 105px;
+  margin-left: 145px;
   width: 350px;
   height: 350px;
   text-align: center;
