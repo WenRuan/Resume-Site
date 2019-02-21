@@ -194,14 +194,14 @@ footer {
     padding-bottom: 10px; }
 
   .showcase::after {
-    height: 70vh; }
+    height: 72vh; }
 
-  .Intro {
-    margin-left: 0px; }
-
-  .Intro h2 {
+  #Intro h2 {
     font-size: 2.2rem;
     margin-top: 1rem; }
+
+  #Intro p {
+    display: none; }
 
   .grid-3 {
     grid-template-columns: 1fr; }
@@ -209,12 +209,5 @@ footer {
   .services div {
     border-bottom: #333 dashed 1px;
     padding: 1.2rem 1rem; } }
-@media (max-height: 500px) {
-  .Intro h2,
-  .Intro p {
-    display: none; }
-
-  .Intro {
-    top: 0; } }
 
 /*# sourceMappingURL=style.css.map */
