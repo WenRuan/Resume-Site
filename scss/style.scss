@@ -274,22 +274,17 @@ footer{
     height: 50vh;
   }
 
-  .content {
+  .Intro h2{
     top: 5%;
     margin-top: 5px;
   }
 
-  .content .logo {
-    height: 140px;
-    width: 140px;
-  }
 
-  .content .text {
+  .Intro p {
     display: none;
   }
 
-  .grid-3,
-  .grid-2 {
+  .grid-3 {
     grid-template-columns: 1fr;
   }
 
@@ -300,12 +295,12 @@ footer{
 }
 
 @media (max-height: 500px) {
-  .content .title,
-  .content .text {
+  .Intro h2,
+  .Intro p {
     display: none;
   }
 
-  .content {
+  .Intro {
     top: 0;
   }
 }
