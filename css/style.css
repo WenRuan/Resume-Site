@@ -1,6 +1,5 @@
 html {
   max-width: 100%;
-  width: 100%;
   margin: 0;
   padding: 0;
   overflow-x: hidden; }
@@ -14,6 +13,7 @@ body {
 header {
   top: 0;
   padding-top: 2em;
+  padding-bottom: 2em;
   position: fixed;
   text-align: center;
   background-color: #fafafa;
@@ -213,7 +213,7 @@ footer {
 
   #Intro {
     top: 5%;
-    margin-top: 5px; }
+    margin-top: 30%; }
 
   #Intro h2 {
     font-size: 2.2rem; }

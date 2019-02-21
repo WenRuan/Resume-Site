@@ -1,6 +1,5 @@
 html{
 	max-width: 100%;
-	width: 100%;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -18,6 +17,7 @@ header {
 
 	top: 0;
 	padding-top: 2em;
+	padding-bottom: 2em;
 	position: fixed;
 	text-align: center;
 	background-color: #fafafa;
@@ -290,7 +290,7 @@ html
 
   #Intro {
   	top: 5%;
-  	margin-top: 5px;
+  	margin-top: 30%;
 
   }
 
