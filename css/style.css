@@ -78,8 +78,9 @@ header {
 #Welcome section {
   background-color: #ddd;
   width: 100%;
+  margin: auto;
   height: 10vh;
-  padding: 12px; }
+  padding-top: 12px; }
   #Welcome section p {
     margin: 18px;
     font-family: 'Krub', sans-serif;
