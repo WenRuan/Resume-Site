@@ -45,7 +45,7 @@ header {
 		text-transform: uppercase;
 		float:right;
 		margin-right: 5%;
-		word-spacing: .2em;
+		word-spacing: .5em;
 
 		a{
 			text-decoration: none;
@@ -76,8 +76,8 @@ header {
 }
 
 .showcase:hover #Intro {
-	filter: blur(3px);
-	-webkit-filter: blur(3px);
+	filter: blur(2px);
+	-webkit-filter: blur(2px);
 }
 
 #Intro{
