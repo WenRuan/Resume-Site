@@ -1,5 +1,8 @@
 html{
 	max-width: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 	overflow-x: hidden;
 }
 
@@ -292,8 +295,7 @@ html
   }
 
   #Intro h2{
-    height: 140px;
-    width: 140px;
+  	font-size: 2.2rem;
   }
 
 
