@@ -269,21 +269,21 @@ footer{
   }
 
   .showcase::after {
-    height: 70vh;
+    height: 72vh;
   }
 
-  .Intro {
-  	margin-left: 0px;
+  #Intro {
+  	//margin-left: 0px;
   }
 
-  .Intro h2{
+  #Intro h2{
     font-size: 2.2rem;
     margin-top: 1rem;
   }
 
 
-  .Intro p {
-
+  #Intro p {
+  	display: none;
   }
 
   .grid-3 {
@@ -296,13 +296,13 @@ footer{
   }
 }
 
-@media (max-height: 500px) {
-  .Intro h2,
-  .Intro p {
-    display: none;
-  }
+// @media (max-height: 500px) {
+//   .Intro h2,
+//   .Intro p {
+//     display: none;
+//   }
 
-  .Intro {
-    top: 0;
-  }
-}
+//   .Intro {
+//     top: 0;
+//   }
+// }
