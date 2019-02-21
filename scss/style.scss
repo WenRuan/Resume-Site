@@ -159,7 +159,7 @@ header {
 		text-align: center;
 		font-family: 'Krub', sans-serif;
 		font-size: 24px;
-		color: #C26868;
+		color: #4C5364;
 		letter-spacing: .1em;
 		}
 
@@ -178,7 +178,7 @@ header {
 		text-align: center;
 		font-family: 'Krub', sans-serif;
 		font-size: 16px;
-		color: #C26868;
+		color: #4C5364;
 		}
 
 		p
@@ -208,14 +208,25 @@ header {
 	grid-template-columns: repeat(3, 1fr);
 }
 
+.center {
+  text-align: center;
+  margin: auto;
+}
 
-#Resume section{
+
+.info{
 	background-color: #C26868;
 	/*C26868*/
 	width: 100%;
 	padding: 20px;
 	margin-bottom: 5%;
 	margin: 0;
+	padding-bottom: 300px;
+
+	h2{
+		text-align: center;
+		font-family: 'Krub', sans-serif;
+	}
 
 	p{
 		margin: 18px;

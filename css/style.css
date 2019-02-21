@@ -97,7 +97,7 @@ header {
     text-align: center;
     font-family: 'Krub', sans-serif;
     font-size: 24px;
-    color: #C26868;
+    color: #4C5364;
     letter-spacing: .1em; }
   #AboutMe section img {
     width: 20%;
@@ -110,7 +110,7 @@ header {
     text-align: center;
     font-family: 'Krub', sans-serif;
     font-size: 16px;
-    color: #C26868; }
+    color: #4C5364; }
   #AboutMe section p {
     font-family: 'Krub', sans-serif;
     display: block;
@@ -130,14 +130,22 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
 
-#Resume section {
+.center {
+  text-align: center;
+  margin: auto; }
+
+.info {
   background-color: #C26868;
   /*C26868*/
   width: 100%;
   padding: 20px;
   margin-bottom: 5%;
-  margin: 0; }
-  #Resume section p {
+  margin: 0;
+  padding-bottom: 300px; }
+  .info h2 {
+    text-align: center;
+    font-family: 'Krub', sans-serif; }
+  .info p {
     margin: 18px;
     font-family: 'Krub', sans-serif;
     font-size: 20px;
