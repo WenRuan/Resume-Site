@@ -181,13 +181,16 @@ footer {
 
   header h2 {
     font-size: 10px;
-    float: center; }
+    float: none; }
 
   #Welcome section {
     padding-bottom: 10px; }
 
   .showcase::after {
     height: 80vh; }
+
+  .Intro {
+    margin-left: 40px; }
 
   .Intro h2 {
     top: 5%;
