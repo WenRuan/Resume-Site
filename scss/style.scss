@@ -6,7 +6,6 @@ html{
 body {
 	width: 100%;
 	margin: 0;
-	right: 0;
 	background-color: rgba(250,250,250,0.9);
 }
 
@@ -82,7 +81,7 @@ header {
  	// padding: 5em;
  	// padding-bottom: 8em;
  	margin-top: 105px;
- 	margin-left: 55%;
+ 	// margin-left: ;
  	width: 350px;
  	height: 350px;
  	text-align: center;
@@ -96,35 +95,11 @@ header {
 }
 
 
-// article{
-
-// 	width: 100%;
-// 	height: 80vh;
-// 	background-color: #C26868; 
-// 	padding:20px;
-// 	margin-top: 40px;
-
-
-// 	p{
-// 		padding: 40px;
-// 		margin-right: 20px;
-// 		font-size: 40px;
-// 		text-align: center;
-// 		color: black;	
-// 		border-style: solid;
-// 		border-color: black;
-// 		background-color: rgba(32,28,41,.75);
-// 		padding-bottom: 30vh;
-// 	}
-
-// }
-
-
 #Welcome section{
 	background-color: #ddd;
 	//#4C5364
 	width: 100%;
-	height: 7vh;
+	height: 10vh;
 	padding: 12px;
 
 	p{
