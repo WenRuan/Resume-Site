@@ -182,10 +182,7 @@ footer {
     font-size: 12px;
     padding-right: 30px; }
 
-@media (max-width: 500px) {
-  html {
-    overflow-x: hidden; }
-
+@media (max-width: 560px) {
   header h1 {
     font-size: 14px; }
 
@@ -197,17 +194,14 @@ footer {
     padding-bottom: 10px; }
 
   .showcase::after {
-    height: 65vh; }
+    height: 70vh; }
 
   .Intro {
     margin-left: 0px; }
 
   .Intro h2 {
-    top: 5%;
-    margin-top: 5px; }
-
-  .Intro p {
-    display: none; }
+    font-size: 2.2rem;
+    margin-top: 1rem; }
 
   .grid-3 {
     grid-template-columns: 1fr; }
