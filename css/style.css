@@ -55,9 +55,9 @@ header {
   filter: blur(0px);
   -webkit-filter: blur(0px); }
 
-.showcase:hover .intro {
-  filter: blur(2px);
-  -webkit-filter: blur(2px); }
+.showcase:hover #Intro {
+  filter: blur(3px);
+  -webkit-filter: blur(3px); }
 
 #Intro {
   position: absolute;
@@ -126,6 +126,10 @@ header {
   overflow: hidden;
   padding: 2rem 1rem;
   background-color: #fafafa; }
+  .container a:link {
+    color: #C26868; }
+  .container a:visited {
+    color: #4C5364; }
 
 .grid-3 {
   display: grid;
