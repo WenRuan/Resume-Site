@@ -125,6 +125,7 @@ header {
 
 .container {
   max-width: 960px;
+  margin: auto;
   overflow: hidden;
   padding: 2rem 1rem;
   background-color: #fafafa; }
@@ -148,6 +149,7 @@ header {
   padding-top: 20px;
   margin-bottom: 5%;
   margin: 0;
+  padding: 0px;
   padding-bottom: 350px; }
   .info h2 {
     text-align: center;
