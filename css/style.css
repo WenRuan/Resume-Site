@@ -87,36 +87,38 @@ header {
     color: gray;
     letter-spacing: .1em; }
 
-#AboutMe section {
-  background-color: #fafafa;
-  /*4C5364*/
-  width: 100%;
-  padding: 20px; }
-  #AboutMe section h2 {
-    text-align: center;
-    font-family: 'Krub', sans-serif;
-    font-size: 24px;
-    color: #4C5364;
-    letter-spacing: .1em; }
-  #AboutMe section img {
-    width: 20%;
-    height: 20%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25px; }
-  #AboutMe section h4 {
-    text-align: center;
-    font-family: 'Krub', sans-serif;
-    font-size: 16px;
-    color: #4C5364; }
-  #AboutMe section p {
-    font-family: 'Krub', sans-serif;
-    display: block;
-    font-size: 20px;
-    margin-left: 22%;
-    margin-right: 22%;
-    text-align: center; }
+#AboutMe {
+  padding-top: 50px; }
+  #AboutMe section {
+    background-color: #fafafa;
+    /*4C5364*/
+    width: 100%;
+    padding: 20px; }
+    #AboutMe section h2 {
+      text-align: center;
+      font-family: 'Krub', sans-serif;
+      font-size: 24px;
+      color: #4C5364;
+      letter-spacing: .1em; }
+    #AboutMe section img {
+      width: 20%;
+      height: 20%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 25px; }
+    #AboutMe section h4 {
+      text-align: center;
+      font-family: 'Krub', sans-serif;
+      font-size: 16px;
+      color: #4C5364; }
+    #AboutMe section p {
+      font-family: 'Krub', sans-serif;
+      display: block;
+      font-size: 20px;
+      margin-left: 22%;
+      margin-right: 22%;
+      text-align: center; }
 
 .container {
   max-width: 960px;
@@ -140,10 +142,11 @@ header {
   padding: 20px;
   margin-bottom: 5%;
   margin: 0;
-  padding-bottom: 300px; }
+  padding-bottom: 350px; }
   .info h2 {
     text-align: center;
-    font-family: 'Krub', sans-serif; }
+    font-family: 'Krub', sans-serif;
+    padding-top: 50px; }
   .info p {
     margin: 18px;
     font-family: 'Krub', sans-serif;
@@ -176,6 +179,9 @@ footer {
     padding-right: 30px; }
 
 @media (max-width: 500px) {
+  html {
+    overflow-x: hidden; }
+
   header h1 {
     font-size: 14px; }
 
