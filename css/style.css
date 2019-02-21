@@ -54,11 +54,15 @@ article {
   padding: 20px;
   margin-top: 40px; }
   article p {
-    padding: 20px;
+    padding: 40px;
     margin-right: 20px;
     font-size: 40px;
     text-align: center;
-    color: white; }
+    color: black;
+    border-style: solid;
+    border-color: black;
+    background-color: rgba(32, 28, 41, 0.75);
+    padding-bottom: 30vh; }
 
 #Welcome section {
   background-color: #4C5364;
