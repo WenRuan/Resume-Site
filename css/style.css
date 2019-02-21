@@ -204,7 +204,7 @@ footer {
     height: 72vh; }
 
   #Intro {
-    position: absolute; }
+    margin-left: -145px; }
 
   #Intro h2 {
     font-size: 2.2rem;
