@@ -180,30 +180,25 @@ footer {
   .showcase::after {
     height: 50vh; }
 
-  .content {
+  .Intro h2 {
     top: 5%;
     margin-top: 5px; }
 
-  .content .logo {
-    height: 140px;
-    width: 140px; }
-
-  .content .text {
+  .Intro p {
     display: none; }
 
-  .grid-3,
-  .grid-2 {
+  .grid-3 {
     grid-template-columns: 1fr; }
 
   .services div {
     border-bottom: #333 dashed 1px;
     padding: 1.2rem 1rem; } }
 @media (max-height: 500px) {
-  .content .title,
-  .content .text {
+  .Intro h2,
+  .Intro p {
     display: none; }
 
-  .content {
+  .Intro {
     top: 0; } }
 
 /*# sourceMappingURL=style.css.map */
