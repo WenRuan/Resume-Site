@@ -175,7 +175,7 @@ footer {
     font-size: 12px;
     padding-right: 30px; }
 
-@media (max-width: 560px) {
+@media (max-width: 500px) {
   header h1 {
     font-size: 14px; }
 
@@ -190,7 +190,7 @@ footer {
     height: 65vh; }
 
   .Intro {
-    margin-left: 15px; }
+    margin-left: 0px; }
 
   .Intro h2 {
     top: 5%;
