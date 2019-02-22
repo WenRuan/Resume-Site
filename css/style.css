@@ -9,7 +9,11 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgba(250, 250, 250, 0.9);
-  font-family: 'Krub', sans-serif; }
+  font-family: 'Krub', sans-serif;
+  overflow-y: hidden; }
+
+body::-webkit-scrollbar {
+  width: 0; }
 
 header {
   top: 0;
@@ -75,8 +79,13 @@ header {
   text-align: center;
   transition: all 1000ms;
   color: white; }
+  #Intro em {
+    font-size: 5.2rem;
+    color: white;
+    font-style: italic; }
 
 #Intro h2 {
+  font-family: 'Krub', sans-serif;
   font-size: 4.2rem;
   margin-top: 1rem; }
 
@@ -108,7 +117,7 @@ header {
       color: #4C5364;
       letter-spacing: .1em; }
     #AboutMe section img {
-      width: 20%;
+      width: 16%;
       height: 20%;
       display: block;
       margin-left: auto;
@@ -138,19 +147,23 @@ header {
   .container a:visited {
     color: #4C5364; }
 
+.grid-2 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr); }
+
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
-
-.grid-4 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); }
 
 .center {
   text-align: center;
   margin: auto; }
 
 .activities {
+  text-align: center; }
+
+.services {
   text-align: center; }
 
 .info {
@@ -178,11 +191,6 @@ header {
     margin-left: 18%;
     letter-spacing: .1em; }
 
-/*section p{
-	padding: 1.2em;
-	margin: 0px;
-	margin-right: 20px;
-}*/
 footer {
   left: 0px;
   bottom: 0px;
@@ -238,5 +246,12 @@ footer {
   .services div {
     border-bottom: #333 dashed 1px;
     padding: 1.2rem 1rem; } }
+@media (max-height: 500px) {
+  #Intro h2,
+  #Intro p {
+    display: none; }
+
+  #Intro {
+    top: 0; } }
 
 /*# sourceMappingURL=style.css.map */
