@@ -323,6 +323,8 @@ html
 
   .showcase::after {
     height: 65vh;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
   }
 
   #Intro {

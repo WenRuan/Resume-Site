@@ -236,7 +236,9 @@ footer {
     padding-bottom: 15px; }
 
   .showcase::after {
-    height: 65vh; }
+    height: 65vh;
+    filter: blur(5px);
+    -webkit-filter: blur(5px); }
 
   #Intro {
     top: 5%;
