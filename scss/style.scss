@@ -3,6 +3,7 @@ html{
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -97,6 +98,7 @@ header {
  	color: white;
 
  	em{
+ 	font-family: 'Felipa', cursive;
  	font-size: 5.2rem;
  	color: white;
  	font-style: italic;
@@ -171,12 +173,19 @@ header {
 
 		p
 		{
-		font-family: 'Krub', sans-serif;
+		//font-family: 'Krub', sans-serif;
 		display: block;
-		font-size: 20px;
-		margin-left: 22%;
-		margin-right: 22%;
+		font-size: 21px;
+		margin-left: 20%;
+		margin-right: 20%;
 		text-align: center;
+		background-color: #4C5364;
+		color: #fafafa;
+		border-radius: 15px;
+		padding: 20px;
+		padding-bottom: 30px;
+		border-style: double;
+		border-width: 10px;
 		}
 
 	}
@@ -228,8 +237,8 @@ header {
 }
 
 
-.info{
-	background-color: #C26868;
+.experience{
+	background-color: #47567e;
 	/*C26868*/
 	width: 100%;
 	padding-top: 20px;
@@ -247,7 +256,7 @@ header {
 	p{
 		padding: 30px;
 		border-radius: 30px;
-		background-color: #4C5364;
+		background-color: #fafafa;
 		margin: 18px;
 		font-family: 'Krub', sans-serif;
 		font-size: 20px;
@@ -258,7 +267,6 @@ header {
 	}
 
 }
-
 
 
 footer{
