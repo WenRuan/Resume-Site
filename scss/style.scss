@@ -236,6 +236,15 @@ header {
 
 }
 
+.container2{
+	max-width: 1260px;
+	margin:auto;
+	overflow: hidden;
+	padding: 2rem 1rem;
+	//background-color: #fafafa;
+
+
+}
 
 .experience{
 	background-color: #47567e;
@@ -251,18 +260,19 @@ header {
 		text-align: center;
 		font-family: 'Krub', sans-serif;
 		padding-top: 50px;
+		color: #fafafa;
 	}
 
 	p{
 		padding: 30px;
 		border-radius: 30px;
 		background-color: #fafafa;
-		margin: 18px;
+		margin: 5px;
 		font-family: 'Krub', sans-serif;
 		font-size: 20px;
 		text-align: center;
-		margin-right: 18%;
-		margin-left: 18%;
+		margin-right: 5%;
+		margin-left: 5%;
 		letter-spacing: .1em;
 	}
 
