@@ -67,8 +67,8 @@ header {
   -webkit-filter: blur(0px); }
 
 .showcase:hover #Intro {
-  filter: blur(2px);
-  -webkit-filter: blur(2px); }
+  filter: blur(4px);
+  -webkit-filter: blur(4px); }
 
 #Intro {
   position: absolute;
@@ -106,7 +106,7 @@ header {
     letter-spacing: .1em; }
 
 #AboutMe {
-  padding-top: 50px; }
+  padding-top: 65px; }
   #AboutMe section {
     background-color: #fafafa;
     /*4C5364*/
@@ -143,6 +143,11 @@ header {
       padding-bottom: 30px;
       border-style: double;
       border-width: 10px; }
+
+#chartContainer {
+  padding-top: 2%;
+  padding-bottom: 20%;
+  padding-left: 25%; }
 
 .container {
   max-width: 960px;
@@ -224,6 +229,9 @@ footer {
     font-family: 'Krub' , sans-serif;
     font-size: 12px;
     padding-right: 30px; }
+
+canvas {
+  border: 1px solid black; }
 
 @media (max-width: 560px) {
   html {

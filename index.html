@@ -12,14 +12,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Felipa" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
 	<script type="text/javascript" src="js/resume.js"></script>
+	<script src = "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
 </head>
-<body>
+<body onload="createchart();">
 		<div id = "title">
 			<header>
 				<a href="https://www.wenleruan.com"><h1>Wen Le Ruan</h1></a>
 				<h2><a href="#AboutMe">About</a>
 					<a href=files/WenLeRuanResume.pdf>Resume</a>
-					<a href="#Projects">Projects</a></h2>
+					<a href="#Experience">Experience</a></h2>
 			</header>			
 		</div>
 
@@ -28,7 +29,7 @@
 			<div id = "Intro">
 
 				<h2>
-				Welcome to <em>LW</em> Workshop
+				Welcome to <em>LW</em> Studios
 				</h2>
 				<p>
 					
@@ -58,6 +59,11 @@
 				</p>
 
 			</section>
+		</div>
+
+		<div id = "chartContainer" style="position: relative; height:25vh; width:50vw">
+			<h2>Technical Skills</h2>
+			<canvas id = "myChart"></canvas>
 		</div>
 
 		<section class="activities">
@@ -103,7 +109,7 @@
 
 
 
-		<div id="Projects">
+		<div id="Experience">
 			<section class="experience">
 
 				<h2>Projects (Under Revamp)</h2>
@@ -167,6 +173,7 @@
 					</div>
 				</div>
 		</section>		
+
 		</div>
 
 

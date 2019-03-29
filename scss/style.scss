@@ -80,8 +80,8 @@ header {
 }
 
 .showcase:hover #Intro {
-	filter: blur(2px);
-	-webkit-filter: blur(2px);
+	filter: blur(4px);
+	-webkit-filter: blur(4px);
 }
 
 #Intro{
@@ -136,7 +136,7 @@ header {
 
 #AboutMe {
 
-	padding-top: 50px;
+	padding-top: 65px;
 	section
 	{
 	background-color: #fafafa;
@@ -191,6 +191,13 @@ header {
 	}
 
 }
+
+#chartContainer{
+	padding-top: 2%;
+	padding-bottom: 20%;
+	padding-left: 25%;
+}
+
 
 .container {
 	max-width: 960px;
@@ -305,6 +312,36 @@ footer{
 	}
 
 }
+
+canvas{
+	border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 560px) {
