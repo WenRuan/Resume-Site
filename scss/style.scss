@@ -24,9 +24,10 @@ header {
 	padding-bottom: 2em;
 	position: fixed;
 	text-align: center;
-	background-color: #fafafa;
+	background-color: rgba(245,245,245,0.85);
 	width: 100%;
 	z-index: 2;
+	border-radius: 7px;
 
 	h1{
 		padding-left: 2em;
@@ -63,15 +64,17 @@ header {
 	content: '';
 	height: 83vh;
 	width: 100%;
-	background-image: url(resumebackground.jpg);
+	background-image: url(desk2.jpg);
+	background-attachment: fixed;
 	background-size: cover;
-	background-repeat: none;
+	background-repeat: no-repeat;
 	background-position: center;
 	display: block;
 	filter: blur(8px);
 	-webkit-filter: blur(8px);
 	transition: all 1000ms;
 	margin-top: 95px;
+	//border-radius: 5px;
 }
 
 .showcase:hover::after{
@@ -80,8 +83,8 @@ header {
 }
 
 .showcase:hover #Intro {
-	filter: blur(4px);
-	-webkit-filter: blur(4px);
+	filter: blur(3px);
+	-webkit-filter: blur(3px);
 }
 
 #Intro{
@@ -91,32 +94,43 @@ header {
  	// padding-bottom: 8em;
  	margin-top: 105px;
  	margin-left: 80px;
- 	width: 350px;
- 	height: 350px;
+ 	width: 400px;
+ 	height: 130px;
  	text-align: center;
  	transition: all 1000ms;
- 	color: white;
+ 	color: rgba(230,255,247,0.9);
+ 	padding: 3px;
+	border: 6px rgba(230,255,247,0.8) solid;
+	border-radius: 4px;
 
- 	em{
- 	font-family: 'Felipa', cursive;
- 	font-size: 5.2rem;
- 	color: white;
- 	font-style: italic;
- }
 
+ // 	em{
+ // 	font-family: 'Felipa', cursive;
+ // 	font-size: 5.2rem;
+ // 	color: white;
+ // 	font-style: italic;
+ // }
+
+ 	h3{
+ 		margin-top: 0px;
+ 		margin-bottom: 0px;
+ 	}
 
 }
 
 
 #Intro h2{
-	font-family: 'Krub', sans-serif;
+	font-family: 'Playball', cursive;
 	font-size: 4.2rem;
 	margin-top: 1rem;
+	margin-bottom: 0px;
+	//padding: 3px;
+	//border: 6px white solid;
 }
 
 
 #Welcome section{
-	background-color: #ddd;
+	background-color: rgba(230,230,230,0.9);
 	//#4C5364
 	width: 100%;
 	margin:auto;
@@ -136,13 +150,18 @@ header {
 
 #AboutMe {
 
-	padding-top: 65px;
 	section
 	{
-	background-color: #fafafa;
+	background-image: url(desk.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
 	/*4C5364*/
 	width: 100%;
 	padding-top: 15px;
+	padding-top: 75px;
 
 		h2
 		{
@@ -153,14 +172,21 @@ header {
 		letter-spacing: .1em;
 		}
 
+		// #selfpic {
+		// 	padding: 20px;
+		// 	border: 1px black solid;
+		// 	background-color: gray;
+
+		// }
+
 		img
 		{
 		width: 16%;
 		height: 20%;
 		display: block;
+		border-radius: 25px;
 		margin-left: auto;
 		margin-right: auto;
-		border-radius: 25px;
 		}
 
 		h4
@@ -187,6 +213,7 @@ header {
 		border-style: double;
 		border-width: 10px;
 		}
+
 
 	}
 
@@ -312,29 +339,6 @@ footer{
 	}
 
 }
-
-canvas{
-	border: 1px solid black;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
