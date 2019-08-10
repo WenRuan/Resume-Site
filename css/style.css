@@ -7,6 +7,7 @@ html {
 
 body {
   width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
   background-color: rgba(250, 250, 250, 0.9);
@@ -17,24 +18,24 @@ body::-webkit-scrollbar {
   width: 0; }
 
 header {
-  top: 0;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  position: fixed;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+  position: absolute;
   text-align: center;
   background-color: rgba(245, 245, 245, 0.85);
   width: 100%;
   z-index: 2;
-  border-radius: 7px; }
+  border-radius: 3px; }
   header h1 {
-    padding-left: 2em;
+    padding-left: 3em;
     font-family: 'Krub', sans-serif;
-    font-size: 24px;
-    color: gray;
+    font-size: 21px;
+    color: black;
     letter-spacing: .2em;
     margin: 0;
     text-transform: uppercase;
-    float: left; }
+    float: left;
+    font-weight: 750; }
   header h2 {
     font-family: 'Krub', sans-serif;
     font-size: 14px;
@@ -44,73 +45,37 @@ header {
     text-transform: uppercase;
     float: right;
     margin-right: 5%;
-    word-spacing: .5em; }
+    word-spacing: .5em;
+    font-weight: 1000;
+    padding-top: 3px; }
     header h2 a {
       text-decoration: none;
       color: black; }
+    header h2 a:hover {
+      text-decoration: none; }
 
-.showcase::after {
-  content: '';
-  height: 83vh;
-  width: 100%;
-  background-image: url(desk2.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: block;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  transition: all 1000ms;
-  margin-top: 95px; }
-
-.showcase:hover::after {
-  filter: blur(0px);
-  -webkit-filter: blur(0px); }
-
-.showcase:hover #Intro {
-  filter: blur(3px);
-  -webkit-filter: blur(3px); }
-
-#Intro {
-  position: absolute;
-  z-index: 1;
-  margin-top: 105px;
-  margin-left: 80px;
-  width: 400px;
-  height: 130px;
-  text-align: center;
-  transition: all 1000ms;
-  color: rgba(230, 255, 247, 0.9);
-  padding: 3px;
-  border: 6px rgba(230, 255, 247, 0.8) solid;
-  border-radius: 4px; }
-  #Intro h3 {
-    margin-top: 0px;
-    margin-bottom: 0px; }
-
-#Intro h2 {
-  font-family: 'Playball', cursive;
-  font-size: 4.2rem;
-  margin-top: 1rem;
-  margin-bottom: 0px; }
-
-#Welcome section {
-  background-color: rgba(230, 230, 230, 0.9);
+.showcase {
+  height: 95vh;
   width: 100%;
   margin: auto;
-  height: 10vh;
-  padding-top: 12px; }
-  #Welcome section p {
-    margin: 18px;
-    font-family: 'Krub', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    color: gray;
-    letter-spacing: .1em; }
+  display: table;
+  margin-top: 4em;
+  background-size: cover;
+  background-color: #3498db; }
+  .showcase .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none; }
+  .showcase #Welcome {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center; }
+    .showcase #Welcome h1 {
+      font-family: 'Permanent Marker', cursive;
+      font-size: 700%; }
 
 #AboutMe section {
-  background-image: url(desk.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -118,8 +83,8 @@ header {
   display: block;
   /*4C5364*/
   width: 100%;
-  padding-top: 15px;
-  padding-top: 75px; }
+  padding-top: 75px;
+  padding-bottom: 30px; }
   #AboutMe section h2 {
     text-align: center;
     font-family: 'Krub', sans-serif;
@@ -161,12 +126,11 @@ header {
   max-width: 960px;
   margin: auto;
   overflow: hidden;
-  padding: 2rem 1rem;
-  background-color: #fafafa; }
+  padding: 2rem 1rem; }
   .container a:link {
-    color: #C26868; }
+    color: #47567e; }
   .container a:visited {
-    color: #4C5364; }
+    color: #47567e; }
 
 .grid-2 {
   display: grid;
@@ -290,12 +254,15 @@ footer {
 
   .experience p {
     font-size: 12px; } }
-@media (max-height: 500px) {
+@media (max-width: 600px) {
   #Intro h2,
   #Intro p {
     display: none; }
 
   #Intro {
-    top: 0; } }
+    top: 0; }
+
+  #Welcome h1 {
+    font-size: 4em; } }
 
 /*# sourceMappingURL=style.css.map */
