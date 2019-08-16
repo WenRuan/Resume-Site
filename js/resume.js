@@ -22,10 +22,10 @@ function createchart(){
 	let barChart = new Chart(myChart, {
 		type:'horizontalBar',
 		data: {
-			labels:['Java', 'Python', 'Javascript', 'HTML/CSS', 'C++', 'SQL'],
+			labels:['C#', 'Java', 'Python', 'Javascript', 'HTML/CSS', 'C++', 'SQL'],
 			datasets:[{
 				label: 'Proficiency',
-				data: [20, 15, 10, 13, 15, 10],
+				data: [18, 10, 15, 10, 15, 15, 10],
 				responsive: true,
 				backgroundColor: [
 
