@@ -18,19 +18,19 @@ body::-webkit-scrollbar {
 
 header {
   top: 0;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
   position: fixed;
   text-align: center;
-  background-color: rgba(245, 245, 245, 0.85);
+  background-color: rgba(245, 245, 245, 0.95);
   width: 100%;
   z-index: 2;
-  border-radius: 7px; }
+  border-radius: 3px; }
   header h1 {
     padding-left: 2em;
-    font-family: 'Krub', sans-serif;
+    font-family: 'Permanent Marker', cursive;
     font-size: 24px;
-    color: gray;
+    color: #555555;
     letter-spacing: .2em;
     margin: 0;
     text-transform: uppercase;
@@ -51,9 +51,9 @@ header {
 
 .showcase::after {
   content: '';
-  height: 83vh;
+  height: 92vh;
   width: 100%;
-  background-image: url(desk2.jpg);
+  background-image: url(bricks.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -62,44 +62,31 @@ header {
   filter: blur(8px);
   -webkit-filter: blur(8px);
   transition: all 1000ms;
-  margin-top: 95px; }
+  margin-top: 0px; }
 
 .showcase:hover::after {
   filter: blur(0px);
   -webkit-filter: blur(0px); }
 
-.showcase:hover #Intro {
-  filter: blur(3px);
-  -webkit-filter: blur(3px); }
+.showcase:hover .intro {
+  filter: blur(5px);
+  -webkit-filter: blur(5px); }
 
-#Intro {
+.intro {
+  font-family: 'Courgette', cursive;
+  font-size: 5em;
+  padding-left: 60%;
+  padding-top: 10%;
   position: absolute;
   z-index: 1;
-  margin-top: 105px;
-  margin-left: 80px;
-  width: 400px;
-  height: 130px;
-  text-align: center;
-  transition: all 1000ms;
-  color: rgba(230, 255, 247, 0.9);
-  padding: 3px;
-  border: 6px rgba(230, 255, 247, 0.8) solid;
-  border-radius: 4px; }
-  #Intro h3 {
-    margin-top: 0px;
-    margin-bottom: 0px; }
-
-#Intro h2 {
-  font-family: 'Playball', cursive;
-  font-size: 4.2rem;
-  margin-top: 1rem;
-  margin-bottom: 0px; }
+  color: #dbdff0;
+  transition: all 1000ms; }
 
 #Welcome section {
   background-color: rgba(230, 230, 230, 0.9);
   width: 100%;
   margin: auto;
-  height: 10vh;
+  height: 8vh;
   padding-top: 12px; }
   #Welcome section p {
     margin: 18px;
@@ -110,12 +97,6 @@ header {
     letter-spacing: .1em; }
 
 #AboutMe section {
-  background-image: url(desk.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: block;
   /*4C5364*/
   width: 100%;
   padding-top: 15px;
@@ -127,10 +108,11 @@ header {
     color: #4C5364;
     letter-spacing: .1em; }
   #AboutMe section img {
+    min-width: 300px;
     width: 16%;
     height: 20%;
     display: block;
-    border-radius: 25px;
+    border-radius: 10px;
     margin-left: auto;
     margin-right: auto; }
   #AboutMe section h4 {
@@ -144,13 +126,11 @@ header {
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
-    background-color: #4C5364;
+    background-color: rgba(76, 83, 100, 0.75);
     color: #fafafa;
     border-radius: 15px;
     padding: 20px;
-    padding-bottom: 30px;
-    border-style: double;
-    border-width: 10px; }
+    padding-bottom: 30px; }
 
 #chartContainer {
   padding-top: 2%;
@@ -164,9 +144,12 @@ header {
   padding: 2rem 1rem;
   background-color: #fafafa; }
   .container a:link {
-    color: #C26868; }
+    color: rgba(30, 30, 245, 0.8); }
   .container a:visited {
     color: #4C5364; }
+  .container div {
+    padding-left: 1em;
+    padding-right: 1em; }
 
 .grid-2 {
   display: grid;
@@ -192,32 +175,6 @@ header {
   margin: auto;
   overflow: hidden;
   padding: 2rem 1rem; }
-
-.experience {
-  background-color: #47567e;
-  /*C26868*/
-  width: 100%;
-  padding-top: 20px;
-  margin-bottom: 5%;
-  margin: 0;
-  padding: 0px;
-  padding-bottom: 50px; }
-  .experience h2 {
-    text-align: center;
-    font-family: 'Krub', sans-serif;
-    padding-top: 50px;
-    color: #fafafa; }
-  .experience p {
-    padding: 30px;
-    border-radius: 30px;
-    background-color: #fafafa;
-    margin: 5px;
-    font-family: 'Krub', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    margin-right: 5%;
-    margin-left: 5%;
-    letter-spacing: .1em; }
 
 footer {
   left: 0px;
