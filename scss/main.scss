@@ -1,0 +1,135 @@
+//Variables
+$bg-nav: #2c3e50;
+$bg-main: #4AC2E8;
+
+//-----Styling for the main page
+
+
+//---Default Body Styles
+html body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+//---Top Navigation bar
+#nav{
+
+	// Whole Nav bar
+	background-color: $bg-nav;
+	letter-spacing: .1rem;
+	padding: 1.3rem 1.3rem;
+	text-transform: uppercase;
+	font-size: 1.1rem;
+
+	// Navigation Title
+	#PageTitle{
+		color:white;
+		font-size: 1.8rem;
+		margin-left: 3rem;
+		font-family: 'Baloo Bhai', cursive;
+	}
+
+	.navbarLinks{
+		margin-right: 3rem;
+	}
+
+	// Navigation Links
+	.nav-link{
+		color: white;
+		padding-right: 1rem;
+	}
+	.nav-link:hover{color: $bg-main;}
+}
+
+
+//---Hero Message
+#hero{
+	margin:0;
+}
+
+.jumbotron{
+
+	//Whole Jumbotron
+	background-color: $bg-main !important;
+	color: white;
+	font-family: 'Baloo Bhai', cursive;
+
+	//Avatar Icon
+	.toon{width: 22%; height:22%; text-align: center; padding-bottom: 2rem;}
+
+	//Hero Title
+	.hero-title{text-transform: uppercase;}
+
+}
+
+
+//---About
+.about{
+	padding-top: 2rem;
+	margin-bottom: 3rem;
+	h1{padding-bottom: 1rem;}
+}
+
+#aboutTitle{
+
+	text-align: center;
+	color: $bg-nav;
+	font-family: 'Baloo Bhai', cursive;
+	padding-bottom: 3rem;
+
+
+	//Terminal Box
+	.card-header{
+		background-color: #dadada !important;
+		padding: .25rem 1rem;
+	}
+	.card-body{
+		background-color: rgba(10,10,10,.9); 
+		color: #1c9c3e; 
+		text-align: left;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 1rem;
+		border-radius: 5px;
+		p{margin:0;}
+	}
+	.info{
+		p{font-size: .90rem; margin-bottom: .7rem; color:white;}
+	}
+
+}
+
+
+//---Interests
+#gui{
+
+	.card-header{
+		background-color: rgba(10,10,10,.9);
+		color:white;
+		padding: .25rem 1rem;
+		text-align: center;
+	}
+	.card-body{text-align: center;}
+
+	#interface{
+		background-color: #dadada;
+
+		.card{border-width: .15rem;}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
