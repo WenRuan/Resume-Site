@@ -96,6 +96,7 @@ html body{
 		font-family: 'Ubuntu', sans-serif;
 		font-size: 1rem;
 		border-radius: 5px;
+		padding: 1.5rem 1.5rem;
 		p{margin:0;}
 	}
 	.info{
@@ -119,15 +120,48 @@ html body{
 	#interface{
 		background-color: #dadada;
 
-		.card{border-width: .15rem; border-top-width: .4rem;}
-		.card-body{background-color: #fafafa;}
+		.card{border-width: .4rem;}
+		.card-body{background-color: gray; color: white;}
 	}
 }
 
+//---Education and work
+.school{padding-top: 3rem;}
+
+.section-line{
+	border-bottom: 1px solid #CEC8C8;
+	padding-bottom: 20px;
+	font-size: 1.2rem;
+	padding-top: 1rem;
+}
+
+.entry{
+	padding-bottom: 1.7rem;
+	color: $bg-nav;
+
+	.description{padding-left: 1rem; p{margin-bottom: 2px;}}
+
+	h2{font-size: 1.6rem; font-weight: 650;}
+	h6{font-weight: 650; padding-bottom: 1.5rem;}
+
+	.date-location{
+		text-align: right;
+		padding-right: 1.3rem;
+		p{margin-bottom: 2px; font-style: italic;}
+	}
+}
 
 //---Portfolio
 .Portfolio{
 	background-color: $bg-secondary;
+	color: white;
+	text-align: center;
+	padding-top: 2rem;
+	font-family: 'Baloo Bhai', cursive;
+
+	h1{padding-bottom: 2rem;}
+
+	//Experience tabs
 }
 
 
