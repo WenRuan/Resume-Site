@@ -1,0 +1,139 @@
+/**********************************************
+* Custom CSS for Personal Site, 
+* Bootstrap Overrides
+**********************************************/
+/*Custom Body*/
+#site {
+  background-color: #4C5364; }
+
+body {
+  overflow-x: hidden;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none; }
+  body p {
+    font-size: 1.2rem; }
+
+body::-webkit-scrollbar {
+  width: 0 !important; }
+
+/*Custom styling for Navigation Bar*/
+#nav {
+  padding: 1rem 1.6rem; }
+  #nav a {
+    font-family: 'Kaushan Script', cursive; }
+  #nav #mainNav a {
+    font-family: 'Krub', sans-serif; }
+  #nav #PageTitle {
+    font-size: 30px;
+    letter-spacing: .2rem; }
+  #nav .nav-item {
+    letter-spacing: .1rem; }
+
+/*Quote below carousel*/
+#quote {
+  text-align: center;
+  padding: 1.5rem .4rem;
+  background-color: #f8f9fa;
+  padding-right: 0px;
+  padding-left: 0px;
+  letter-spacing: 1.5px;
+  font-family: 'Krub', sans-serif;
+  font-size: 1.4rem; }
+
+.hero-image {
+  background-image: url("bricks.jpg");
+  height: 65vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/*Custom Styling for AboutMe*/
+#About {
+  background-color: #4C5364;
+  margin-top: 2rem; }
+
+#AboutMe {
+  background-color: #f8f9fa;
+  padding: 3rem;
+  font-family: 'Krub', sans-serif;
+  text-align: center;
+  position: relative; }
+  #AboutMe h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.4rem;
+    font-family: 'Kaushan Script', cursive; }
+  #AboutMe p {
+    padding-top: 1.3rem;
+    text-align: left; }
+
+#portrait img {
+  width: 50%;
+  justify-content: center;
+  border-radius: 7rem; }
+
+@media (min-width: 576px) {
+  #portrait img {
+    width: 80%;
+    border-radius: 7rem; }
+
+  #AboutMe h2 {
+    font-size: 2rem; } }
+/*Custom Styling for Activities*/
+#Activities {
+  background-color: #f8f9fa;
+  padding: 2rem; }
+  #Activities h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: 'Kaushan Script', cursive;
+    padding-bottom: 1.5rem;
+    padding-top: 2rem; }
+  #Activities i {
+    display: block;
+    text-align: center; }
+  #Activities h3 {
+    text-align: center; }
+  #Activities p {
+    text-align: center;
+    padding: 1rem; }
+
+#WorkSpace {
+  background-color: #f8f9fa;
+  margin-bottom: 2rem; }
+  #WorkSpace h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: 'Kaushan Script', cursive;
+    padding-bottom: 1.5rem;
+    padding-top: 2rem; }
+  #WorkSpace i {
+    display: block;
+    text-align: center; }
+  #WorkSpace h3 {
+    text-align: center; }
+  #WorkSpace p {
+    text-align: center;
+    padding: 1rem; }
+
+/*Custom Styling for Projects*/
+#Projects {
+  background-color: #f0f0f0; }
+
+.title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 2rem;
+  font-family: 'Kaushan Script', cursive;
+  padding-bottom: 1.5rem;
+  padding-top: 2rem; }
+
+.exp-nav {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  background-color: #f0f0f0; }
+
+/*# sourceMappingURL=styles.css.map */
