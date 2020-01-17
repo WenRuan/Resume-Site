@@ -120,7 +120,8 @@ html body {
   color: white;
   text-align: center;
   padding-top: 2rem;
-  font-family: 'Baloo Bhai', cursive; }
+  font-family: 'Baloo Bhai', cursive;
+  padding-bottom: 15rem; }
   .Portfolio h1 {
     padding-bottom: 2rem; }
 
