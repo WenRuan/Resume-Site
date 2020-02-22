@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth; }
+
 html body {
   height: 100%;
   width: 100%;
@@ -125,8 +128,17 @@ html body {
   padding-bottom: 15rem; }
   .Portfolio h1 {
     padding-bottom: 2rem; }
-  .Portfolio .portfolioButtons {
-    text-align: center; }
+  .Portfolio .project {
+    padding-top: 3rem; }
+  .Portfolio .projectImage {
+    max-width: 200px;
+    max-height: 120px; }
+    .Portfolio .projectImage img {
+      height: 100%;
+      width: 100%; }
+
+.hidden {
+  display: none; }
 
 .social {
   padding: 1.7rem 1rem;

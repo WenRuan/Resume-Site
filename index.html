@@ -46,13 +46,16 @@
 	      	<li class="nav-item">
 		        <a class="nav-link" href="RESUME_2-11-20.pdf">Resume</a>
 		    </li>
+		    <li class="nav-item">
+		        <a class="nav-link" href="#Experience">Experience</a>
+		    </li>
 		    <li class="nav-item dropdown">
 		      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		          Experience
+		          Projects
 		      </a>
 		      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="#">Work</a>
 		          <a class="dropdown-item" href="#">School</a>
+		          <a class="dropdown-item" href="#">Work</a>
 		          <a class="dropdown-item" href="#">For fun</a>
 		        </div>
 		    </li>
@@ -99,7 +102,7 @@
 		    </div>
 		    <p class="card-text">(base) WenRuan:~$ &nbsp; Wen.resume</p>
 		    <div class="info">
-			    <p>&nbsp;&nbsp;&nbsp;>> <a href="#">Wen_resume.pdf</a></p>
+			    <p>&nbsp;&nbsp;&nbsp;>> <a href="RESUME_2-11-20">Wen_resume.pdf</a></p>
 		    </div>
 		    <p class="card-text">(base) WenRuan:~$ &nbsp; Wen.email</p>
 		    <div class="info">
@@ -115,7 +118,7 @@
 	</div>
 
 	<!--Experience Resume-->
-	<div class="container experience">
+	<div class="container experience" id="Experience">
 
 		<!--Education-->
 		<div class="school">
@@ -183,7 +186,7 @@
 		</div>
 
 		<!--Work-->
-		<div class="work">
+		<div class="Work">
 			<h3 class="section-line">Work</h3>
 
 			<!--MarCom-->
@@ -263,14 +266,106 @@
 	</div>
   </section>
 
-  <section class="Portfolio">
+  <section id="Projects" class="Portfolio">
   	<div class="container-fluid">
   		<h1>Portfolio</h1>
   	</div>
   	<div class="container">
-  		<button type="button" class="btn btn-info">Work</button>
-  		<button type="button" class="btn btn-info">School</button>
-  		<button type="button" class="btn btn-info">For fun</button>
+  		<div>
+	  		<button id="schoolButton" type="button" class="btn btn-info">School</button>
+	  		<button id="workButton" type="button" class="btn btn-info">Work</button>
+	  		<button id="forFunButton" type="button" class="btn btn-info">For fun</button> 			
+  		</div>
+  		<div class="project school">
+  			<div class="row">
+  				<div class="col-4 projectImage">
+  					<img src="css/game.jpg" alt="game" class="rounded img-thumbnail">
+  				</div>
+  				<div class="col-8">
+  					<h2>"An American AVK Automation"</h2>
+  					<p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  					consequat.</p>
+  				</div>
+  			</div>
+  		</div>
+
+  		<div class="project school">
+  			<div class="row">
+  				<div class="col-4 projectImage">
+  					<img src="css/keyboard.jpg" alt="game" class="rounded img-thumbnail">
+  				</div>
+  				<div class="col-8">
+  					<h2>Nihongoshiete</h2>
+  					<p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  					consequat.</p>
+  				</div>
+  			</div>
+  		</div>
+
+  		<div class="project school">
+  			<div class="row">
+  				<div class="col-4 projectImage">
+  					<img src="css/music.jpg" alt="game" class="rounded img-thumbnail">
+  				</div>
+  				<div class="col-8">
+  					<h2>Node Distance Locator</h2>
+  					<p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  					consequat.</p>
+  				</div>
+  			</div>
+  		</div>	
+
+  		<div class="project work hidden">
+  			<div class="row">
+  				<div class="col-4 projectImage">
+  					<img src="css/music.jpg" alt="game" class="rounded img-thumbnail">
+  				</div>
+  				<div class="col-8">
+  					<h2>UNR Tuition Cost Calculator</h2>
+  					<p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  					consequat.</p>
+  				</div>
+  			</div>
+  		</div>	
+
+  		<div class="project forFun hidden">
+  			<div class="row">
+  				<div class="col-4 projectImage">
+  					<img src="css/music.jpg" alt="game" class="rounded img-thumbnail">
+  				</div>
+  				<div class="col-8">
+  					<h2>Music chord transposer app</h2>
+  					<p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  					consequat.</p>
+  				</div>
+  			</div>
+  		</div>
+
+  		<div class="project forFun hidden">
+  			<div class="row">
+  				<div class="col-4 projectImage">
+  					<img src="css/music.jpg" alt="game" class="rounded img-thumbnail">
+  				</div>
+  				<div class="col-8">
+  					<h2>Music Visualizer</h2>
+  					<p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  					consequat.</p>
+  				</div>
+  			</div>
+  		</div>	
+
   	</div>
 
   </section>

@@ -7,6 +7,7 @@ $bg-secondary:#e8a17f;
 
 
 //---Default Body Styles
+html{scroll-behavior: smooth;}
 html body{
 	height: 100%;
 	width: 100%;
@@ -166,10 +167,22 @@ html body{
 	padding-bottom: 15rem;
 	//Experience tabs
 
-	.portfolioButtons{
-		text-align: center;
+	.project{
+		padding-top: 3rem;
+	}
+
+	.projectImage{
+		max-width: 200px;
+		max-height: 120px;
+
+		img{
+			height: 100%;
+			width: 100%;
+		}
 	}
 }
+
+.hidden{display: none;}
 
 
 
