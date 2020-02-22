@@ -103,6 +103,10 @@ html body{
 		p{font-size: .90rem; margin-bottom: .7rem; color:white;}
 	}
 
+	#insertFlicker{
+		color: white;
+		font-size: 1.3rem;
+	}
 }
 
 
@@ -112,15 +116,13 @@ html body{
 	.card-header{
 		background-color: rgba(10,10,10,.9);
 		color:white;
-		padding: .25rem 1rem;
+		padding: .25rem .7rem;
 		text-align: center;
 	}
 	.card-body{text-align: center;}
 
 	#interface{
 		background-color: #dadada;
-
-		.card{border-width: .4rem;}
 		.card-body{background-color: gray; color: white;}
 	}
 }
@@ -163,6 +165,10 @@ html body{
 
 	padding-bottom: 15rem;
 	//Experience tabs
+
+	.portfolioButtons{
+		text-align: center;
+	}
 }
 
 
