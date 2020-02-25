@@ -1,234 +1,416 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<!--Required Meta tags-->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!--Bootstrap CSS + Custom-->
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
 
 	<!--Google Fonts-->
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Krub&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
 
 	<!--Customer Script-->
+	<script src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script src="https://kit.fontawesome.com/59139690a5.js" crossorigin="anonymous"></script>
 
+
 	<title>Wen Le Ruan</title>
 </head>
-<body id="site" onload="typeWriter()">
-		<!--Navigation bar on top-->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
-		  <a class="navbar-brand" id="PageTitle" href="#">Wen Le Ruan</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
 
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <ul class="navbar-nav mr-auto">
-		    </ul>
+<!--Body-->
+<body>
 
-		    <ul class="navbar-nav ml-auto" id="mainNav">
-		    	<li class="nav-item">
-		        	<a class="nav-link" href="#AboutMe">About <span class="sr-only">(current)</span></a>
-		      	</li>
-		      	<li class="nav-item">
-			        <a class="nav-link" href="#">Resume</a>
-			    </li>
-			    <li class="nav-item dropdown">
-			      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			          Experience
-			      </a>
-			      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          <a class="dropdown-item" href="#">Work</a>
-			          <a class="dropdown-item" href="#">School</a>
-			          <a class="dropdown-item" href="#">For fun</a>
-			        </div>
-			    </li>
-		    </ul>
+
+	<!--Navigation bar on top-->
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav">
+	  <a class="navbar-brand" id="PageTitle" href="#">Wen Le Ruan</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse navbarLinks" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	    </ul>
+
+	    <ul class="navbar-nav ml-auto" id="mainNav">
+	    	<li class="nav-item">
+	        	<a class="nav-link" href="#AboutMe">About <span class="sr-only">(current)</span></a>
+	      	</li>
+	      	<li class="nav-item">
+		        <a class="nav-link" href="RESUME_2-11-20.pdf">Resume</a>
+		    </li>
+		    <li class="nav-item">
+		        <a class="nav-link" href="#Experience">Experience</a>
+		    </li>
+		    <li class="nav-item dropdown">
+		      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Projects
+		      </a>
+		      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="#">School</a>
+		          <a class="dropdown-item" href="#">Work</a>
+		          <a class="dropdown-item" href="#">For fun</a>
+		        </div>
+		    </li>
+	    </ul>
+	  </div>
+	</nav>
+
+
+
+	<!--Large Hero Image-->
+  <!-- Masthead -->
+  <header class="masthead text-center"id="intro">
+	<div class="jumbotron jumbotron-fluid" id="hero">
+	  <div class="container">
+	  	<div class="toon mx-auto">
+			<img src="css/avatar.svg" class="img-fluid" alt="Responsive image">
+	  	</div>
+	    <h1 class="display-4 hero-title">Wen Le Ruan</h1>
+	    <p class="lead">Tech Lover - Developer - Gamer</p>
+	  </div>
+	</div>
+  </header>
+
+<!-- About -->
+  <section class="about" id="AboutMe">
+  	<div class="container" id="aboutTitle">
+  		<h1>About</h1>
+
+  		<!--Terminal-->
+		<div class="card">
+		  <h6 class="card-header">Terminal</h6>
+		  <div class="card-body">
+		    <p class="card-text">(base) WenRuan:~$ &nbsp; Wen.origin</p>
+		    <div class="info">
+			    <p>&nbsp;&nbsp;&nbsp;>> Guangzhou, China -------> Reno, Nevada</p>
+		    </div>
+		    <p class="card-text">(base) WenRuan:~$ &nbsp; Wen.education</p>
+		    <div class="info">
+			    <p>&nbsp;&nbsp;&nbsp;>> University of Nevada, Reno</p>
+		    </div>
+		    <p class="card-text">(base) WenRuan:~$ &nbsp; Wen.major</p>
+		    <div class="info">
+			    <p>&nbsp;&nbsp;&nbsp;>> Computer Science & Engineering</p>
+		    </div>
+		    <p class="card-text">(base) WenRuan:~$ &nbsp; Wen.resume</p>
+		    <div class="info">
+			    <p>&nbsp;&nbsp;&nbsp;>> <a href="RESUME_2-11-20.pdf">Wen_resume.pdf</a></p>
+		    </div>
+		    <p class="card-text">(base) WenRuan:~$ &nbsp; Wen.email</p>
+		    <div class="info">
+			    <p>&nbsp;&nbsp;&nbsp;>> wruan0909@gmail.com</p>
+		    </div>
+		    <p class="card-text">(base) WenRuan:~$ &nbsp; Wen.interests</p>
+		    <div class="info">
+			    <p>&nbsp;&nbsp;&nbsp;>> Starting Graphical User Interface..... See below</p>
+		    </div>
+		    <p class="card-text">(base) WenRuan:~$ &nbsp; <span id="insertFlicker"> &#9647 </span></p>
 		  </div>
-		</nav>
-
-
-		<!--Hero Component-->
-		<!--
-		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-		  <ol class="carousel-indicators">
-		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-		  </ol>
-		<div class="carousel slide" data-ride="carousel">
-		  <div class="carousel-inner">
-		    
-		    <div class="carousel-item active item">
-		      <img class="d-block w-100 img-fluid" src="../css/bricks.jpg" alt="First slide">
-		        <div class="carousel-caption d-none d-md-block" id="WelcomeCap">
-			    	<h5>Welcome</h5>
-			    	<p>Please have a look around!</p>
-			  	</div>
-		    </div>
-		    
-		    <div class="carousel-item item">
-		      <img class="d-block w-100 img-fluid" src="../css/engDinner.jpg" alt="Second slide">
-		      	<div class="carousel-caption d-none d-md-block" id="EngCap">
-			    	<h2>Engineering Dinner 2019</h2>
-			    	<p>Enjoying the end of the semeseter engineering event. Got to meet many employers as well as spending quality time with friends and collegues.</p>
-			  	</div>
-		    </div>
-
-		    <div class="carousel-item item">
-		      <img class="d-block w-100 img-fluid" src="../css/japan.jpg" alt="Third slide">
-		      	<div class="carousel-caption d-none d-md-block" id="JapanCap">
-			    	<h2>Study Abroad Osaka, Japan 2018</h2>
-			    	<p>Had the chance to study abroad in Japan for 5 months and also meeting so many new lifelong friends.</p>
-			  	</div>
-		    </div>
-		  </div>
-		</div>
-		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		    <span class="sr-only">Previous</span>
-		  </a>
-		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		    <span class="sr-only">Next</span>
-		  </a>
-		</div>
-		-->
-
-	<div class="hero-image">
-		<div class="hero">
-			<h1>Welcome</h1>
-			<p>Testing lorem ipsum!</p>
 		</div>
 	</div>
 
-	<!--Quote-->
-	<div id="quote" class="container-fluid">
-		<div>
-			<span>"Man is still the most extraordinary computer of all" - John F. Kennedy</span>
+	<div id="Interests" class="container text-center">
+		<h2>Interests</h2>
+		<div class="row padding-top">
+			<div class="col-3">
+				<i class="fas fa-guitar fa-3x icon-color"></i>
+				<h6 class="padding-top">Music</h6>
+			</div>
+			<div class="col-3">
+				<i class="fas fa-utensils fa-3x icon-color"></i>
+				<h6 class="padding-top">Food</h6>
+			</div>
+			<div class="col-3">
+				<i class="fas fa-map-marked-alt fa-3x icon-color"></i>
+				<h6 class="padding-top">Travel</h6>
+			</div>
+			<div class="col-3">
+				<i class="fas fa-gamepad fa-3x icon-color"></i>
+				<h6 class="padding-top">Game</h6>
+			</div>
 		</div>
 	</div>
 
-	<div class="container-fluid" id="About">
-		<div class="container">
-			<div id="AboutMe">
-				<h2>About Me</h2>
-				<div class="row justify-content-sm-center">
-					<div class="col-sm-4 justify-content-center">
-						<div id="portrait">
-							<img class="img-thumbnail" src="css/WenPortrait.jpg">
+	<!--Experience Resume-->
+	<div class="container experience" id="Experience">
+
+		<!--Education-->
+		<div class="school">
+			<h3 class="section-line">Education</h3>
+
+			<!--UNR-->
+			<div class="entry">
+				<div class="row">
+					<div class="col-9">
+						<h2>University of Nevada, Reno</h2>
+						<h6>Computer Science & Engineering, B.S.</h6>
+					</div>
+					<div class="col-3">
+						<div class="date-location">
+							<p>2015 - 2020</p>
+							<p>Reno, Nevada</p>							
 						</div>
 					</div>
-					<div class="col-sm-8">
-						<p id="text-type"></p>
+				</div>
+				<div class="row">
+					<div class="col-8 description">
+						<p>Studied Computer Science & Engineering with a focus on Big Data and HCI.</p>
+						<p>Relevant Coursework:</p>
+						<p><ul>
+							<li>Object-Oriented Programming</li>
+							<li>Data Structures</li>
+							<li>Analysis of Algorithms</li>
+							<li>Human & Computer Interaction</li>
+							<li>Database Administration</li>
+							<li>Operating Systems</li>
+							<li>Computer Networking</li>
+							<li>Embedded Systems</li>
+							<li>Computer Visions</li>
+						</ul></p>
+					</div>
+					<div class="col-4">
+						
+					</div>
+				</div>
+			</div>
+
+			<!--Kwansei-->
+			<div class="entry">
+				<div class="row">
+					<div class="col-9">
+						<h2>Kwansei Gakuin University</h2>
+						<h6>Study Abroad</h6>
+					</div>
+					<div class="col-3">
+						<div class="date-location">
+							<p>Mar 2018 - Aug 2018</p>
+							<p>Osaka, Japan</p>							
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-8 description">
+						Spent a semester abroad in Osaka, Japan studying japanese language and culture. Coursework included intensive japanese courses as well as japanese culture and geography. Met a lot of amazing people from all over the world. Not to mention traveling the whole country.
+					</div>
+					<div class="col-4">
+						
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="container">
-			<div id="Activities">
-				<h2>Activities</h2>
-				<div class="row justify-content-sm-center">
-					<div class="col-sm-4">
-						<i class="fas fa-music fa-2x"></i>
-						<h3>Music</h3>
-						<p>I enjoy listerning to all genres of music as well as play multiple instruments. It's a very relaxing activity for me to do on my own time or when I'm trying to relax.</p>
-					</div>
+		<!--Work-->
+		<div class="Work">
+			<h3 class="section-line">Work</h3>
 
-					<div class="col-sm-4">
-						<i class="fas fa-laptop-code fa-2x"></i>
-						<h3>Code</h3>
-						<p>Programming is a big part of my life now, I make time daily to just mess with some code for a project. I look forward to all the programming projects my courses offer. I can see myself doing this as a career path.</p>
+			<!--MarCom-->
+			<div class="entry">
+				<div class="row">
+					<div class="col-9">
+						<h2>UNR Marketing and Communications</h2>
+						<h6>Web Development Intern</h6>
 					</div>
-
-					<div class="col-sm-4">
-						<i class="fas fa-map-marked-alt fa-2x"></i>
-						<h3>Travel</h3>
-						<p>I like to travel whenever I have the chance to. I've been to many countries in Asia and want to go on a trip all throughout Europe. Experiencing the different cultures really opens your eyes to so many new things.</p>
+					<div class="col-3">
+						<div class="date-location">
+							<p>Mar 2019 - Jan 2020</p>
+							<p>Reno, Nevada</p>							
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-8 description">
+						Joined an amazing team of individuals bringing accessible web pages to the university. Duties include working on creating new web components, fixing bugs and errors, answering web help requests, and maintaining univeristy standards. Recreated the tuition cost calculator as an intern project.
+					</div>
+					<div class="col-4">
+						
 					</div>
 				</div>
 			</div>
 
-			<div id="WorkSpace">
-				<h2>Work Space</h2>
-				<div class="row justify-content-sm-center">
-					<div class="col-sm-6">
-						<i class="fab fa-linkedin fa-2x"></i>
-						<h3>LinkedIn</h3>
-						<p>Building a network is a big part of my career, lets stay connected! </p>
+			<!--Nutrient-->
+			<div class="entry">
+				<div class="row">
+					<div class="col-9">
+						<h2>Nutrient Foods</h2>
+						<h6>IT Project Manager Intern</h6>
 					</div>
-
-					<div class="col-sm-6">
-						<i class="fab fa-github fa-2x"></i>
-						<h3>GitHub</h3>
-						<p>The repositories of all the projects I have done on my own time or just for fun. </p>
+					<div class="col-3">
+						<div class="date-location">
+							<p>Sep 2019 - Dec 2019</p>
+							<p>Reno, Nevada</p>							
+						</div>
 					</div>
-
+				</div>
+				<div class="row">
+					<div class="col-8 description">
+						Working as a liason between the IT team and the marketing team to fine tune neccesary steps needed to improve efficiency and functionality. Implemented systems such as HubSpot and managed sales and shipment systems. Main task was to integrated all company tools into a single system to provide better abstraction. Other duties include basic IT problem solving. 
+					</div>
+					<div class="col-4">
+						
+					</div>
 				</div>
 			</div>
+
+			<!--Jazmine-->
+			<div class="entry">
+				<div class="row">
+					<div class="col-9">
+						<h2>Jazmine Restaurant</h2>
+						<h6>Sushi Chef + Assistant Manager</h6>
+					</div>
+					<div class="col-3">
+						<div class="date-location">
+							<p>Jun 2014 - Jan 2020</p>
+							<p>Reno, Nevada</p>							
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-8 description">
+						Started working as a sushi chef in training and moved up to head sushi chef in 4 years. Acted as a tightend to the restaurant having proficiency in every position in the restaurant (server, buser, bartender, host...). Obtained assistant manager role in charge of managing the POS system, scheduling, and company payrole.
+					</div>
+					<div class="col-4">
+						
+					</div>
+				</div>
+			</div>
+
+
 		</div>
 	</div>
+  </section>
 
-	<div class="container-fluid" id="Projects">
-		<div class="title">
-			<h2>Projects</h2>
-		</div>
-		<div class="container">
-			<div>
-				<div class="row exp-nav" >
-				  <div class="col-3">
-				    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-				      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Work</a>
-				      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">School</a>
-				      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">For fun</a>
-				    </div>
-				  </div>
-				  <div class="col-9">
-				    <div class="tab-content" id="v-pills-tabContent">
-				      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-					      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				      </div>
-				      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-				      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				      	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				      	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				      	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				      	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				      	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				      </div>
-				      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-				      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				      	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				      	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				      	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				      	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				      	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				      </div>
-				      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-				      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				      	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				      	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				      	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				      	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				      	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				      </div>
-				    </div>
-				  </div>
-			</div>
-		</div>
-		</div>
-	</div>
+  <section id="Projects" class="Portfolio">
+  	<div class="container-fluid">
+  		<h1>Projects</h1>
+  	</div>
+  	<div class="container">
+  		<div>
+	  		<button id="schoolButton" type="button" class="btn btn-primary but-pad">School</button>
+	  		<button id="workButton" type="button" class="btn btn-primary but-pad">Work</button>
+	  		<button id="forFunButton" type="button" class="btn btn-primary but-pad">For fun</button> 			
+  		</div>
+  		<div class="project school">
+  			<div class="row">
+  				<div class="col-4 projectImage">
+  					<img src="css/game.jpg" alt="game" class="rounded img-thumbnail">
+  				</div>
+  				<div class="col-8">
+  					<h2>"An American AVK Automation"</h2>
+  					<p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  					consequat.</p>
+  				</div>
+  			</div>
+  		</div>
 
+  		<div class="project school">
+  			<div class="row">
+  				<div class="col-4 projectImage">
+  					<img src="css/keyboard.jpg" alt="game" class="rounded img-thumbnail">
+  				</div>
+  				<div class="col-8">
+  					<h2>Nihongoshiete</h2>
+  					<p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  					consequat.</p>
+  				</div>
+  			</div>
+  		</div>
+
+  		<div class="project school">
+  			<div class="row">
+  				<div class="col-4 projectImage">
+  					<img src="css/music.jpg" alt="game" class="rounded img-thumbnail">
+  				</div>
+  				<div class="col-8">
+  					<h2>Node Distance Locator</h2>
+  					<p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  					consequat.</p>
+  				</div>
+  			</div>
+  		</div>	
+
+  		<div class="project work hidden">
+  			<div class="row">
+  				<div class="col-4 projectImage">
+  					<img src="css/music.jpg" alt="game" class="rounded img-thumbnail">
+  				</div>
+  				<div class="col-8">
+  					<h2>UNR Tuition Cost Calculator</h2>
+  					<p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  					consequat.</p>
+  				</div>
+  			</div>
+  		</div>	
+
+  		<div class="project forFun hidden">
+  			<div class="row">
+  				<div class="col-4 projectImage">
+  					<img src="css/music.jpg" alt="game" class="rounded img-thumbnail">
+  				</div>
+  				<div class="col-8">
+  					<h2>Music chord transposer app</h2>
+  					<p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  					consequat.</p>
+  				</div>
+  			</div>
+  		</div>
+
+  		<div class="project forFun hidden">
+  			<div class="row">
+  				<div class="col-4 projectImage">
+  					<img src="css/music.jpg" alt="game" class="rounded img-thumbnail">
+  				</div>
+  				<div class="col-8">
+  					<h2>Music Visualizer</h2>
+  					<p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  					consequat.</p>
+  				</div>
+  			</div>
+  		</div>	
+
+  	</div>
+
+  </section>
+
+
+
+  <!--Footer-->
+  <footer>
+  	<div class="social container-fluid">
+  		<div class="row">
+  			<div class="col-4 text-left">
+  				<h6>Copyright &copy; 2019 Wen Ruan</h6>
+  			</div>
+  			<div class="col-4 text-center">
+  				<i class="fab fa-linkedin fa-lg"></i>
+  				<i class="fab fa-github fa-lg"></i>
+  			</div>
+  			<div class="col-4 text-right">
+  				<h6><a href="#">Email</a></h6>
+  			</div>
+  		</div>
+  	</div>
+  </footer>
 
 
 
@@ -242,5 +424,6 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
 </html>
